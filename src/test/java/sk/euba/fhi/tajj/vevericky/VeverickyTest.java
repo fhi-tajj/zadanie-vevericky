@@ -19,5 +19,5 @@ public class VeverickyTest {
 		assertEquals( true, this.vevericky.veverickySaHraju( 30, true ) );
 		assertEquals( false, this.vevericky.veverickySaHraju( 10, false ) );
 		assertEquals( false, this.vevericky.veverickySaHraju( 10, true ) );
-	}
+		assertEquals( false, this.vevericky.veverickySaHraju( 40, true ) );	}
 }

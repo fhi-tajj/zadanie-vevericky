@@ -7,3 +7,8 @@ Veveričky sa hrajú ak je teplota medzi 15 - 25C (vrátane). V lete je sa hraj�
 + veverickySaHraju(35, true) → true
 + veverickySaHraju(10, false) → false
 + veverickySaHraju(10, true) → false
+
+```javas
+public boolean veverickySaHraju(int teplota, boolean jeLeto) {
+}
+```
